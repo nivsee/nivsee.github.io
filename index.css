@@ -17,7 +17,7 @@ body {
 
 .container {
     flex-wrap: wrap;
-    height: 85dvh;
+    height: 100dvh;
     color: white;
     display: flex;
     flex-direction: column;
@@ -41,18 +41,4 @@ img {
 
 a { 
     text-decoration: none;
-}
-
-.projects {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    flex-grow: 1;
-}
-
-.projects h2{
-    width: 60%;
-    padding: 0.75dvh 1.5dvw;
-    font-size: 4dvh;
-    border-left: 5px #9DAEFF solid;
 }
