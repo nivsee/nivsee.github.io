@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    font-family: Inter;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    color: white;
+}
+
+body {
+    background-image: url("./img/background.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    flex-wrap: wrap;
+    height: 85dvh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, span {
+    font-size: 8dvh;
+    font-weight: 900;
+}
+
+span {
+    color: #9DAEFF
+}
+
+img {
+    margin: 3dvh 0.5dvw;
+    width: 3dvh
+}
+
+a { 
+    text-decoration: none;
+}
+
+.projects {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.projects h2{
+    width: 60%;
+    padding: 0.75dvh 1.5dvw;
+    font-size: 4dvh;
+    border-left: 5px #9DAEFF solid;
+}
